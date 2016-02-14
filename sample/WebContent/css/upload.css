@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+table {
+	border: 1px solid #888;
+	border-collapse: collapse;
+}
+
+thead {
+	float: left;
+}
+
+tbody {
+	overflow: auto;
+	white-space: nowrap;
+	width: auto;
+}
+
+tr {
+	display: inline-block;
+}
+
+table, thead, tbody, tfoot, th, td {
+	border: 1px solid #888;
+	display: block;
+	box-sizing: border-box;
+}
+
+tbody tr:first-child {
+	display: none;
+}
+
+.delete-button {
+	display: inline-block;
+}
+
+.col {
+	height: 40px;
+}
+
+.center-display {
+	display: inline-block;
+	margin: 9px;
+}

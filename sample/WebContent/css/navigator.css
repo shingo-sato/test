@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+li {
+	padding: 5px;
+	cursor: pointer;
+	border-bottom: 1px solid #fff;
+	color: #fff;
+	font-weight: bolder;
+	font-size: 1em;
+}
+li:hover {
+	background-color: #f0f;
+}

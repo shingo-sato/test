@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="cache-control" content="no-cache">
+<link rel="styleSheet" href="css/upload.css">
+<script src="js/upload.js"></script>
+<title>アップロード</title>
+</head>
+<body>
+	<span id="delete-button" class="delete-button button">削除する</span>
+	<table id="upload-table">
+		<thead>
+			<tr>
+				<th class="col inxex-col"><span class="center-display">No</span><input
+					type="checkbox" id="all-check"></th>
+				<th class="col file-col"><span class="center-display">ファイル名</span></th>
+				<th class="col explain-col"><span class="center-display">説明</span></th>
+			</tr>
+		</thead>
+		<tbody class="upload-body">
+			<tr>
+				<td class="col index-col"><span class="center-display"></span><input name="hoge"
+					type="checkbox" class="delete-check center-display" /></td>
+				<td class="col file-col"><input type="file" name="file"
+					class="center-display" /></td>
+				<td class="col explain-col"><input type="text"
+					class="center-display" /></td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="3"><input type="file"></td>
+			</tr>
+		</tfoot>
+	</table>
+</body>
+</html>
