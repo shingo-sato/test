@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+
+.tab {
+	height: 100%;
+}
+
+.open{
+	width: calc(100% - 50px);
+}
+.close {
+	flex:1;
+}
